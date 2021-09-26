@@ -4,13 +4,9 @@
 <dict>
 	<key>NSLocalNetworkUsageDescription</key>
 	<string>Looking for local tcp Bonjour service</string>
-	<key>CFBundleURLTypes</key>
-	<array/>
 	<key>NSBonjourServices</key>
 	<array>
 		<string>_http._tcp.</string>
 	</array>
-	<key>LSRequiresIPhoneOS</key>
-	<true/>
 </dict>
 </plist>
