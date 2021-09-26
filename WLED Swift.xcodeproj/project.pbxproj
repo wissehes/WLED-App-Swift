@@ -16,6 +16,7 @@
 		8911CDDF2700AD83001B2901 /* HomeDeviceItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8911CDDE2700AD83001B2901 /* HomeDeviceItem.swift */; };
 		8911CDE12700ADFE001B2901 /* WledApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8911CDE02700ADFE001B2901 /* WledApiResponse.swift */; };
 		8911CDE32700B0ED001B2901 /* WledApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8911CDE22700B0ED001B2901 /* WledApi.swift */; };
+		8964DDBE2700E96C00284A95 /* WledPresetResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8964DDBD2700E96C00284A95 /* WledPresetResponse.swift */; };
 		89783E5526C5423D00C544FA /* Bonjour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89783E5426C5423D00C544FA /* Bonjour.swift */; };
 		89783E5826C5440D00C544FA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89783E5726C5440D00C544FA /* HomeView.swift */; };
 		89783E5B26C5441A00C544FA /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89783E5A26C5441A00C544FA /* HomeViewModel.swift */; };
@@ -41,6 +42,7 @@
 		8911CDE42700BBFF001B2901 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8911CDE72700BD05001B2901 /* app-preview.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "app-preview.gif"; sourceTree = "<group>"; };
 		895CBB2926984CB3008A5058 /* WLED-Swift-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "WLED-Swift-Info.plist"; sourceTree = SOURCE_ROOT; };
+		8964DDBD2700E96C00284A95 /* WledPresetResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WledPresetResponse.swift; sourceTree = "<group>"; };
 		89783E5426C5423D00C544FA /* Bonjour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bonjour.swift; sourceTree = "<group>"; };
 		89783E5726C5440D00C544FA /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		89783E5A26C5441A00C544FA /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 			children = (
 				89BC75FF26C5A82400417380 /* Device.swift */,
 				8911CDE02700ADFE001B2901 /* WledApiResponse.swift */,
+				8964DDBD2700E96C00284A95 /* WledPresetResponse.swift */,
 			);
 			path = Structs;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 				89070C8E26979BE000DD632A /* ContentView.swift in Sources */,
 				89BC760226C5AAEA00417380 /* DeviceManager.swift in Sources */,
 				89783E5F26C5453D00C544FA /* WebView.swift in Sources */,
+				8964DDBE2700E96C00284A95 /* WledPresetResponse.swift in Sources */,
 				8911CDD62700A7E6001B2901 /* AddDeviceSheet.swift in Sources */,
 				89783E5B26C5441A00C544FA /* HomeViewModel.swift in Sources */,
 				89070C8C26979BE000DD632A /* WLED_SwiftApp.swift in Sources */,
