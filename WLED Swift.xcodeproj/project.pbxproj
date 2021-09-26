@@ -38,6 +38,8 @@
 		8911CDDE2700AD83001B2901 /* HomeDeviceItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDeviceItem.swift; sourceTree = "<group>"; };
 		8911CDE02700ADFE001B2901 /* WledApiResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WledApiResponse.swift; sourceTree = "<group>"; };
 		8911CDE22700B0ED001B2901 /* WledApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WledApi.swift; sourceTree = "<group>"; };
+		8911CDE42700BBFF001B2901 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8911CDE72700BD05001B2901 /* app-preview.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "app-preview.gif"; sourceTree = "<group>"; };
 		895CBB2926984CB3008A5058 /* WLED-Swift-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "WLED-Swift-Info.plist"; sourceTree = SOURCE_ROOT; };
 		89783E5426C5423D00C544FA /* Bonjour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bonjour.swift; sourceTree = "<group>"; };
 		89783E5726C5440D00C544FA /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -66,6 +68,8 @@
 		89070C7F26979BE000DD632A = {
 			isa = PBXGroup;
 			children = (
+				8911CDE52700BC07001B2901 /* Screenshots */,
+				8911CDE42700BBFF001B2901 /* README.md */,
 				89070C8A26979BE000DD632A /* WLED Swift */,
 				89070C8926979BE000DD632A /* Products */,
 			);
@@ -147,6 +151,14 @@
 				8911CDDE2700AD83001B2901 /* HomeDeviceItem.swift */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		8911CDE52700BC07001B2901 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				8911CDE72700BD05001B2901 /* app-preview.gif */,
+			);
+			path = Screenshots;
 			sourceTree = "<group>";
 		};
 		89783E5626C5440400C544FA /* Views */ = {
