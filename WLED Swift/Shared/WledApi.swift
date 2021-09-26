@@ -43,4 +43,27 @@ struct WledApi {
     static func toggle(ipaddress: String, port: Int) {
         AF.request("http://\(ipaddress):\(port)/win&T=2").response { _ in }
     }
+    
+    static func getPresets(_ device: Device) -> DataRequest {
+        AF.request("http://\(device.ipaddress ?? ""):\(device.port)/presets.json").validate()
+    }
+    
+    static func setPreset(_ device: Device, preset: WledPreset) -> DataRequest {
+        return AF.request("http://\(device.ipaddress ?? ""):\(device.port)/win&PL=\(preset.key)")
+    }
+    
+    static func setUdpnSend(_ device: Device, send: Bool) -> DataRequest {
+        let params: Parameters = [
+            "udpn": [
+                "send": send
+            ]
+        ]
+        
+        return AF.request(
+            "http://\(device.ipaddress ?? ""):\(device.port)/json",
+            method: .post,
+            parameters: params,
+            encoding: JSONEncoding.default
+        )
+    }
 }
