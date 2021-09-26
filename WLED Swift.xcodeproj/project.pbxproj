@@ -411,6 +411,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "WLED-Swift-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = WLED;
 				INFOPLIST_KEY_CFBundleExecutable = "WLED Swift";
 				INFOPLIST_KEY_CFBundleName = "WLED Swift";
 				INFOPLIST_KEY_CFBundleVersion = 1;
@@ -445,6 +446,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "WLED-Swift-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = WLED;
 				INFOPLIST_KEY_CFBundleExecutable = "WLED Swift";
 				INFOPLIST_KEY_CFBundleName = "WLED Swift";
 				INFOPLIST_KEY_CFBundleVersion = 1;
