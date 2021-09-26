@@ -6,11 +6,16 @@
 //
 
 import SwiftUI
+import Foundation
 
 struct ContentView: View {
+    let bonjour: Bonjour = Bonjour()
+    @State var services: [BonjourService] = []
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            HomeView()
+        }
     }
 }
 

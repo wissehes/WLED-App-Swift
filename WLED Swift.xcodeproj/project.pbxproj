@@ -11,6 +11,21 @@
 		89070C8E26979BE000DD632A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89070C8D26979BE000DD632A /* ContentView.swift */; };
 		89070C9026979BE300DD632A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89070C8F26979BE300DD632A /* Assets.xcassets */; };
 		89070C9326979BE300DD632A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89070C9226979BE300DD632A /* Preview Assets.xcassets */; };
+		8911CDD62700A7E6001B2901 /* AddDeviceSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8911CDD52700A7E6001B2901 /* AddDeviceSheet.swift */; };
+		8911CDDC2700AC58001B2901 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 8911CDDB2700AC58001B2901 /* Alamofire */; };
+		8911CDDF2700AD83001B2901 /* HomeDeviceItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8911CDDE2700AD83001B2901 /* HomeDeviceItem.swift */; };
+		8911CDE12700ADFE001B2901 /* WledApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8911CDE02700ADFE001B2901 /* WledApiResponse.swift */; };
+		8911CDE32700B0ED001B2901 /* WledApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8911CDE22700B0ED001B2901 /* WledApi.swift */; };
+		89783E5526C5423D00C544FA /* Bonjour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89783E5426C5423D00C544FA /* Bonjour.swift */; };
+		89783E5826C5440D00C544FA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89783E5726C5440D00C544FA /* HomeView.swift */; };
+		89783E5B26C5441A00C544FA /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89783E5A26C5441A00C544FA /* HomeViewModel.swift */; };
+		89783E5D26C544E800C544FA /* DeviceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89783E5C26C544E800C544FA /* DeviceView.swift */; };
+		89783E5F26C5453D00C544FA /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89783E5E26C5453D00C544FA /* WebView.swift */; };
+		89783E6126C5475600C544FA /* DiscoveryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89783E6026C5475600C544FA /* DiscoveryView.swift */; };
+		89783E6326C5476C00C544FA /* DiscoveryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89783E6226C5476C00C544FA /* DiscoveryViewModel.swift */; };
+		89783E6726C5481E00C544FA /* ServiceAddListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89783E6626C5481E00C544FA /* ServiceAddListView.swift */; };
+		89BC760026C5A82400417380 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BC75FF26C5A82400417380 /* Device.swift */; };
+		89BC760226C5AAEA00417380 /* DeviceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BC760126C5AAEA00417380 /* DeviceManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +34,21 @@
 		89070C8D26979BE000DD632A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		89070C8F26979BE300DD632A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89070C9226979BE300DD632A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8911CDD52700A7E6001B2901 /* AddDeviceSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDeviceSheet.swift; sourceTree = "<group>"; };
+		8911CDDE2700AD83001B2901 /* HomeDeviceItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDeviceItem.swift; sourceTree = "<group>"; };
+		8911CDE02700ADFE001B2901 /* WledApiResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WledApiResponse.swift; sourceTree = "<group>"; };
+		8911CDE22700B0ED001B2901 /* WledApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WledApi.swift; sourceTree = "<group>"; };
+		895CBB2926984CB3008A5058 /* WLED-Swift-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "WLED-Swift-Info.plist"; sourceTree = SOURCE_ROOT; };
+		89783E5426C5423D00C544FA /* Bonjour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bonjour.swift; sourceTree = "<group>"; };
+		89783E5726C5440D00C544FA /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		89783E5A26C5441A00C544FA /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		89783E5C26C544E800C544FA /* DeviceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceView.swift; sourceTree = "<group>"; };
+		89783E5E26C5453D00C544FA /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		89783E6026C5475600C544FA /* DiscoveryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryView.swift; sourceTree = "<group>"; };
+		89783E6226C5476C00C544FA /* DiscoveryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryViewModel.swift; sourceTree = "<group>"; };
+		89783E6626C5481E00C544FA /* ServiceAddListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceAddListView.swift; sourceTree = "<group>"; };
+		89BC75FF26C5A82400417380 /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		89BC760126C5AAEA00417380 /* DeviceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8911CDDC2700AC58001B2901 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,6 +82,10 @@
 		89070C8A26979BE000DD632A /* WLED Swift */ = {
 			isa = PBXGroup;
 			children = (
+				8911CDD22700A3B7001B2901 /* Shared */,
+				89783E5926C5441100C544FA /* ViewModels */,
+				89783E5626C5440400C544FA /* Views */,
+				895CBB2926984CB3008A5058 /* WLED-Swift-Info.plist */,
 				89070C8B26979BE000DD632A /* WLED_SwiftApp.swift */,
 				89070C8D26979BE000DD632A /* ContentView.swift */,
 				89070C8F26979BE300DD632A /* Assets.xcassets */,
@@ -65,6 +100,73 @@
 				89070C9226979BE300DD632A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8911CDD22700A3B7001B2901 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				89BC760126C5AAEA00417380 /* DeviceManager.swift */,
+				8911CDE22700B0ED001B2901 /* WledApi.swift */,
+				89783E5426C5423D00C544FA /* Bonjour.swift */,
+				89783E5E26C5453D00C544FA /* WebView.swift */,
+				8911CDD32700A3BD001B2901 /* Structs */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		8911CDD32700A3BD001B2901 /* Structs */ = {
+			isa = PBXGroup;
+			children = (
+				89BC75FF26C5A82400417380 /* Device.swift */,
+				8911CDE02700ADFE001B2901 /* WledApiResponse.swift */,
+			);
+			path = Structs;
+			sourceTree = "<group>";
+		};
+		8911CDD42700A7D6001B2901 /* Discovery */ = {
+			isa = PBXGroup;
+			children = (
+				89783E6026C5475600C544FA /* DiscoveryView.swift */,
+				8911CDD52700A7E6001B2901 /* AddDeviceSheet.swift */,
+			);
+			path = Discovery;
+			sourceTree = "<group>";
+		};
+		8911CDD72700A879001B2901 /* Discovery */ = {
+			isa = PBXGroup;
+			children = (
+				89783E6226C5476C00C544FA /* DiscoveryViewModel.swift */,
+			);
+			path = Discovery;
+			sourceTree = "<group>";
+		};
+		8911CDDD2700AD76001B2901 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				89783E5726C5440D00C544FA /* HomeView.swift */,
+				8911CDDE2700AD83001B2901 /* HomeDeviceItem.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		89783E5626C5440400C544FA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8911CDDD2700AD76001B2901 /* Home */,
+				8911CDD42700A7D6001B2901 /* Discovery */,
+				89783E5C26C544E800C544FA /* DeviceView.swift */,
+				89783E6626C5481E00C544FA /* ServiceAddListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		89783E5926C5441100C544FA /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				8911CDD72700A879001B2901 /* Discovery */,
+				89783E5A26C5441A00C544FA /* HomeViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +185,9 @@
 			dependencies = (
 			);
 			name = "WLED Swift";
+			packageProductDependencies = (
+				8911CDDB2700AC58001B2901 /* Alamofire */,
+			);
 			productName = "WLED Swift";
 			productReference = 89070C8826979BE000DD632A /* WLED Swift.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +216,9 @@
 				Base,
 			);
 			mainGroup = 89070C7F26979BE000DD632A;
+			packageReferences = (
+				8911CDDA2700AC58001B2901 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 89070C8926979BE000DD632A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,7 +246,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				89070C8E26979BE000DD632A /* ContentView.swift in Sources */,
+				89BC760226C5AAEA00417380 /* DeviceManager.swift in Sources */,
+				89783E5F26C5453D00C544FA /* WebView.swift in Sources */,
+				8911CDD62700A7E6001B2901 /* AddDeviceSheet.swift in Sources */,
+				89783E5B26C5441A00C544FA /* HomeViewModel.swift in Sources */,
 				89070C8C26979BE000DD632A /* WLED_SwiftApp.swift in Sources */,
+				89783E5D26C544E800C544FA /* DeviceView.swift in Sources */,
+				8911CDDF2700AD83001B2901 /* HomeDeviceItem.swift in Sources */,
+				89783E6326C5476C00C544FA /* DiscoveryViewModel.swift in Sources */,
+				8911CDE12700ADFE001B2901 /* WledApiResponse.swift in Sources */,
+				89783E6726C5481E00C544FA /* ServiceAddListView.swift in Sources */,
+				89783E5826C5440D00C544FA /* HomeView.swift in Sources */,
+				89BC760026C5A82400417380 /* Device.swift in Sources */,
+				89783E6126C5475600C544FA /* DiscoveryView.swift in Sources */,
+				8911CDE32700B0ED001B2901 /* WledApi.swift in Sources */,
+				89783E5526C5423D00C544FA /* Bonjour.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,12 +394,16 @@
 				DEVELOPMENT_TEAM = U3CH3X8GK4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "WLED-Swift-Info.plist";
+				INFOPLIST_KEY_CFBundleExecutable = "WLED Swift";
+				INFOPLIST_KEY_CFBundleName = "WLED Swift";
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,12 +428,16 @@
 				DEVELOPMENT_TEAM = U3CH3X8GK4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "WLED-Swift-Info.plist";
+				INFOPLIST_KEY_CFBundleExecutable = "WLED Swift";
+				INFOPLIST_KEY_CFBundleName = "WLED Swift";
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -343,6 +473,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8911CDDA2700AC58001B2901 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8911CDDB2700AC58001B2901 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8911CDDA2700AC58001B2901 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 89070C8026979BE000DD632A /* Project object */;
 }
