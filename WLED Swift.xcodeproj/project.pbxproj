@@ -417,7 +417,6 @@
 				INFOPLIST_KEY_CFBundleName = "WLED Swift";
 				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Needed to scan for and access local WLED instances";
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -455,7 +454,6 @@
 				INFOPLIST_KEY_CFBundleName = "WLED Swift";
 				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Needed to scan for and access local WLED instances";
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
