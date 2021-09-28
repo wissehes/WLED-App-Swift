@@ -54,6 +54,12 @@ struct HomeDeviceItem: View {
                             .font(.subheadline)
                             .lineLimit(2)
                     }
+                    
+                    if udpnSend {
+                        Text("UDPN Sync enabled.")
+                            .font(.subheadline)
+                            .lineLimit(2)
+                    }
                 }
                 
                 Spacer()
@@ -93,8 +99,10 @@ struct HomeDeviceItem: View {
                 }
             }
             
-            Button("Turn UDPN Sync \(udpnSend ? "off" : "on")") {
+            Button {
                 self.setUdpnSend(!udpnSend)
+            } label: {
+                Label("Toggle UDPN Sync", systemImage: "arrow.up.arrow.down")
             }
         }
     }
