@@ -46,8 +46,16 @@ struct HomeDeviceItem: View {
         VStack {
             HStack {
                 VStack(alignment: .leading) {
-                    Text(device.name)
-                        .bold()
+                    if #available(iOS 16.1, *) {
+                        Text(device.name)
+                            .font(.title)
+                            .fontDesign(.rounded)
+                            .bold()
+                    } else {
+                        Text(device.name)
+                            .font(.title2)
+                            .bold()
+                    }
                     
                     if let preset = currentPreset {
                         Text("Current \(preset.type == .preset ? "preset" : "playlist"): \(preset.name)")
@@ -59,6 +67,10 @@ struct HomeDeviceItem: View {
                         Text("UDPN Sync enabled.")
                             .font(.subheadline)
                             .lineLimit(2)
+                    }
+                    
+                    Slider(value: $brightness, in: 1...255, step: 1) { editing in
+                        self.brightnessEditing = editing
                     }
                 }
                 
@@ -78,10 +90,6 @@ struct HomeDeviceItem: View {
                             .foregroundColor(.red)
                     }
                 }.buttonStyle(.plain).font(Font.system(size: 60))
-            }
-            
-            Slider(value: $brightness, in: 1...255, step: 1) { editing in
-                self.brightnessEditing = editing
             }
         }.contextMenu {
             Menu("Presets") {
@@ -179,6 +187,8 @@ struct HomeDeviceItem: View {
 
 struct HomeDeviceItem_Previews: PreviewProvider {
     static var previews: some View {
-        HomeDeviceItem(device: Device(name: "WLED", ipaddress: "0.0.0.0", port: 80))
+        List {
+            HomeDeviceItem(device: Device(name: "WLED", ipaddress: "192.168.178.58", port: 80))
+        }
     }
 }
