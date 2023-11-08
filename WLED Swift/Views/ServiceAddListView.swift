@@ -17,8 +17,9 @@ struct ServiceAddListView: View {
         HStack {
             VStack(alignment: .leading) {
                 Text(device.name)
+                    .font(.title)
                 
-                Spacer()
+//                Spacer()
                 
                 Text(device.ipaddress ?? "Unknown ip").font(.subheadline)
             }
@@ -51,6 +52,8 @@ struct ServiceAddListView: View {
 
 struct ServiceAddListView_Previews: PreviewProvider {
     static var previews: some View {
-        ServiceAddListView(device: Device(name: "Test", ipaddress: "0.0.0.0", port: 80))
+        List {
+            ServiceAddListView(device: Device(name: "Test", ipaddress: "0.0.0.0", port: 80))
+        }
     }
 }
