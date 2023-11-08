@@ -25,11 +25,21 @@ struct DiscoveryView: View {
             }
         }.navigationTitle("Discovery")
             .onAppear { viewModel.discover() }
+            .toolbar {
+                ToolbarItem(placement: .primaryAction) {
+                    Button("Manually add WLED") { viewModel.sheetshown.toggle() }
+                }
+            }
+            .sheet(isPresented: $viewModel.sheetshown) {
+                ManualAddDeviceSheet()
+            }
     }
 }
 
 struct DiscoveryView_Previews: PreviewProvider {
     static var previews: some View {
-        DiscoveryView()
+        NavigationView {
+            DiscoveryView()
+        }
     }
 }

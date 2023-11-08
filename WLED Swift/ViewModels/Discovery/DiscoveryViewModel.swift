@@ -13,15 +13,7 @@ class DiscoveryViewModel: ObservableObject {
     @Published var newDevices: [Device] = []
     @Published var alreadyAddedDevices: [Device] = []
     
-//    func addDevice(device: BonjourService) {
-//        let device = Device(
-//            name: device.name,
-//            ipaddress: device.ipaddress ?? "0.0.0.0" ,
-//            port: device.port
-//        )
-//        
-//        DeviceManager.add(device: device)
-//    }
+    @Published var sheetshown: Bool = false
     
     func discover(){
         print("discovering")
